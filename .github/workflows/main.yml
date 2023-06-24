@@ -34,4 +34,4 @@ jobs:
         UDEMY_PASSWORD: ${{ secrets.UDEMY_PASSWORD }}
         CI_TEST: "True"
       run: |
-        udemy_enroller --max-pages=5 --debug --browser=chrome
+        udemy_enroller --max-pages=5 --debug
